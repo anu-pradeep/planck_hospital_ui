@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hospital_ui/SearchpageCard.dart';
 import 'package:hospital_ui/custom_Appbar.dart';
-// void main(){runApp(MaterialApp(home: SearchPage(),));}
+
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
 

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -32,8 +31,9 @@ class _CustomcardzState extends State<Customcardz> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only( right: 10, top: 10),
+      padding: const EdgeInsets.only(right: 10, top: 10),
       child: Card(
+        color: Colors.white,
         child: Column(
           children: [
             ListTile(

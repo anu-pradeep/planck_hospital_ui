@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
                                 onPressed: () {},
                                 style: ElevatedButton.styleFrom(
                                     shape: const RoundedRectangleBorder(),
-                                    fixedSize: const Size(190, 50)),
+                                    fixedSize: const Size(190, 50),backgroundColor: Colors.white),
                                 child: Text(
                                   "View details",
                                   style:
